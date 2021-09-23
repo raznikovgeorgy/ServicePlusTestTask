@@ -1,7 +1,7 @@
-case class SomeClass(private var id: Int, private var description: String, private var kind: Option[Int]) {
-  def getId: Int = id
+case class SomeClass(private var _id: Int, private var _description: String, private var _kind: Option[Int]) {
+  def id: Int = _id
 
-  def getDescription: String = description
+  def description: String = _description
 
-  def getKind: Option[Int] = kind
+  def kind: Option[Int] = _kind
 }
